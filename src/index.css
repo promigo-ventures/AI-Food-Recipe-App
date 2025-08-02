@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Inter, sans-serif;
+  background-color: #fafaf8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  /* position: fixed; */
+  gap: 11px;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+}
+
+header .logo {
+  font-size: 30px;
+}
+header h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+main {
+  padding: 40px 30px 10px;
+}
+
+.add-ingredient-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+
+.add-ingredient-form > input {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.add-ingredient-form > button {
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #141413;
+  color: #fafaf8;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.ingredients-list{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+section > h1{
+  font-size: 30px;
+  text-align: left;
+}
+.get-recipe-container{
+  display: flex;
+  padding: 20px 50px 0px 50px;
+  height: 200px;
+  background-color: rgba(192, 192, 192, 0.3);
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+  top:0;
+  margin-top: 50px;
+}
+.get-recipe-container h1{
+  display: flex;
+  font-size: 30px;
+}
+.get-recipe-container p{
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgba(25, 25, 25, 0.5);
+}
+.get-recipe-container button{
+  height: 40px;
+  width: 150px;
+  background-color: rgb(162, 41, 41);
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.get-recipe-container button:hover{
+  cursor: pointer;
+}
+
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+  margin-bottom: 8px;
+}
+
+.suggested-recipe-container p{
+  font-weight: bold;
+}
